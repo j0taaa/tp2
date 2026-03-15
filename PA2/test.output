@@ -1,0 +1,115 @@
+#name "test.cl"
+#5 CLASS
+#5 TYPEID Main
+#5 INHERITS
+#5 TYPEID IO
+#5 '{'
+#6 OBJECTID main
+#6 '('
+#6 ')'
+#6 ':'
+#6 TYPEID SELF_TYPE
+#6 '{'
+#7 '{'
+#8 LET
+#8 OBJECTID obj
+#8 ':'
+#8 TYPEID Main
+#8 ASSIGN
+#8 NEW
+#8 TYPEID Main
+#8 ','
+#9 OBJECTID flag
+#9 ':'
+#9 TYPEID Bool
+#9 ASSIGN
+#9 BOOL_CONST true
+#9 ','
+#10 OBJECTID count
+#10 ':'
+#10 TYPEID Int
+#10 ASSIGN
+#10 INT_CONST 12345
+#11 IN
+#11 '{'
+#12 IF
+#12 NOT
+#12 BOOL_CONST false
+#12 THEN
+#13 OBJECTID obj
+#13 '@'
+#13 TYPEID Main
+#13 '.'
+#13 OBJECTID main
+#13 '('
+#13 ')'
+#14 ELSE
+#15 OBJECTID self
+#16 FI
+#16 ';'
+#18 CASE
+#18 OBJECTID count
+#18 OF
+#19 OBJECTID value
+#19 ':'
+#19 TYPEID Int
+#19 DARROW
+#19 OBJECTID value
+#19 '+'
+#19 INT_CONST 1
+#19 ';'
+#20 ESAC
+#20 ';'
+#21 '}'
+#21 ';'
+#23 TYPEID TypeName
+#23 OBJECTID objectName
+#23 TYPEID SELF_TYPE
+#23 OBJECTID self
+#23 BOOL_CONST true
+#23 BOOL_CONST false
+#23 BOOL_CONST true
+#23 BOOL_CONST false
+#23 TYPEID True
+#23 TYPEID False
+#23 ';'
+#24 OBJECTID x
+#24 ASSIGN
+#24 OBJECTID y
+#24 LE
+#24 OBJECTID z
+#24 ';'
+#25 OBJECTID a
+#25 '+'
+#25 OBJECTID b
+#25 '/'
+#25 OBJECTID c
+#25 '-'
+#25 OBJECTID d
+#25 '*'
+#25 OBJECTID e
+#25 '='
+#25 OBJECTID f
+#25 '<'
+#25 OBJECTID g
+#25 '.'
+#25 OBJECTID h
+#25 '~'
+#25 OBJECTID i
+#25 ','
+#25 OBJECTID j
+#25 ';'
+#27 STR_CONST "plain string"
+#27 ';'
+#28 STR_CONST "escape\n\t\b\f\"\\0"
+#28 ';'
+#34 ERROR "Unmatched *)"
+#35 ERROR "#"
+#37 ERROR "Unterminated string constant"
+#38 OBJECTID self
+#38 ';'
+#39 '}'
+#40 '}'
+#40 ';'
+#41 '}'
+#41 ';'

@@ -4,7 +4,7 @@ README file for Programming Assignment 2 (C++ edition)
 Write-up for PA2
 ----------------
 
-Implementacao
+Implementação
 -------------
 
 O scanner foi implementado inteiramente em `cool.flex` usando Flex em C++.
@@ -13,7 +13,7 @@ operadores e pontuação, palavras-chave/identificadores/números e strings.
 Também foram usados estados exclusivos do Flex para tratar comentários
 aninhados e a recuperação de erros em strings.
 
-Decisoes de projeto
+Decisões de projeto
 -------------------
 
 1. Comentários aninhados:
@@ -50,7 +50,7 @@ Decisoes de projeto
    `OBJECTID`. `SELF_TYPE` e `self` foram tratados como identificadores
    comuns, conforme o enunciado.
 
-Correcao
+Correção
 --------
 
 O scanner cobre todos os tokens exigidos por `cool-parse.h`, inclusive
